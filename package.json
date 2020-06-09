@@ -1,0 +1,19 @@
+{
+  "name": "mock_callback",
+  "version": "1.0.0",
+  "description": "Simple Mock server to receive callbacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "kdpisda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.0.3",
+    "nodemon": "^2.0.4",
+    "winston": "^3.2.1"
+  }
+}
